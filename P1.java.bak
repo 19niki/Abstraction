@@ -1,0 +1,20 @@
+/* cretaing a abstract method
+  --> any method which does not have body is called as abstract method.
+  --> A abstract method must be prefixed with abstract.
+  --> A abstract method must end with a semi-colon.
+  --> A abstarct method must not have a body.
+  --> if we have a one or more abstract method then we should make the class abstract.
+*/
+abstract class P1 //we should make a class as abstarct else we get cte
+{
+	//abstract int add();
+	int sub()
+	{
+		return 1;
+	}
+	public static void main(String args[])
+	{ 
+		P1 obj =new P1();
+		obj.sub();
+	}
+}

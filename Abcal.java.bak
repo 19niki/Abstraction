@@ -1,0 +1,12 @@
+ abstract class cal 
+{
+	cal()
+	{
+	}
+   abstract int add(int a, int b);	
+}
+
+abstract class Abcal extends cal
+{
+
+}
